@@ -1,0 +1,43 @@
+.title{
+    font-size: larger;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 10vh;
+}
+
+.search-control{
+    position: relative;
+    left: calc(100% - 600px);
+    border: 0px solid #000;
+    outline: none;
+    height: 3vh;
+    margin-right: 10px;
+}
+
+.movies-container{
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-image{
+    height: 100;
+    width: 300px;
+}
+
+.movie-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-info{
+    text-align: left;
+    padding: 20px;
+}
